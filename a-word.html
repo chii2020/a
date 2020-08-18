@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a-word.css">
+    <title>あなたに一言！</title>
+</head>
+<body>
+    <h1>〇〇さんに一言！</h1>
+    <p>名前を入れて下さい</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+    <button onclick="assessmentButton()" id="assessment">診断する</button>
+    <div id="i-want-to-say-a-word-to-you-area"></div>
+    <div id="result-area"></div>
+    <div id="tweet-area"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="src"></div>
+    <div id="link"></div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="a-word.js"></script>
+</body>
+</html>
